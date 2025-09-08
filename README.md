@@ -4,20 +4,11 @@ This repository is a fork of [https://github.com/CETQAP/ZA25-Protocol/tree/main]
 
 This repository contains the implementation of a quantum communication simulation inspired by the ZA25 protocol, developed by the Centre of Excellence for Technology Quantum and AI (CETQAC). The project achieves a 100 km repeater-enhanced simulation with a fidelity of 0.9950, real-time 10-bit transmission of the message "10" with a fidelity of 0.946, and 100% shot accuracy. Built using Qiskit to demonstrate advancements in Quantum Secure Direct Communication (QSDC).
 
-## Features
-
-* Simulates a 100 km quantum repeater network with a mitigated fidelity of 0.9950.
-* Executes real-time 10-bit quantum message transmission with a fidelity of 0.946.
-* Achieves 100% shot accuracy using M3 error mitigation techniques.
-* Runs on IBM Quantum's `ibm_sherbrooke` device or compatible backends.
-* Includes data analysis and visualization tools for fidelity and accuracy metrics.
-
 ## Prerequisites
 
 * Python 3.8 or higher
 * Qiskit 0.44 or later (`pip install qiskit`)
-* An IBM Quantum account ([Sign up](https://quantum.ibm.com/account))
-* Optional: NumPy and Matplotlib for data analysis and visualization
+* NumPy and Matplotlib for data analysis and visualization
 * Git for version control
 
 ## Sample Results
