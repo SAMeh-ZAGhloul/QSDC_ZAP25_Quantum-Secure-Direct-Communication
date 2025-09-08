@@ -20,28 +20,6 @@ This repository contains the implementation of a quantum communication simulatio
 * Optional: NumPy and Matplotlib for data analysis and visualization
 * Git for version control
 
-## Usage
-
-To run the 100 km repeater-enhanced simulation:
-
-```bash
-python simulation.py --distance 100 --repeater --fidelity-target 0.9950
-```
-
-To execute the real-time 10-bit transmission:
-
-```bash
-python transmission.py --message "10" --device ibm_sherbrooke
-```
-
-Results, including fidelity and shot accuracy metrics, are saved in the `results/` directory as CSV files and visualizations.
-
-## Results
-
-* **Repeater Simulation:** 100 km distance, Fidelity = 0.9950, Shot Accuracy = 100%.
-* **Real-Time Transmission:** 10-bit message "10", Fidelity = 0.946, Shot Accuracy = 100%.
-  Detailed metrics and visualizations are available in `results/output.csv` and `results/plots/`.
-
 ## Sample Results
 
 ### Circuit Diagram
